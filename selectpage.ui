@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>selectpage</class>
+ <widget class="QMainWindow" name="selectpage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>638</width>
+    <height>609</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>638</width>
+    <height>609</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>ACCOUNT</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background:rgb(12,59,151);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="bar">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>90</y>
+      <width>601</width>
+      <height>421</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dd">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>90</y>
+      <width>271</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,181,247);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>deposit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ww">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>230</y>
+      <width>271</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,181,247);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>withdraw</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bb">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>390</y>
+      <width>281</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,181,247);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>balance
+enquiry</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pp">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>90</y>
+      <width>261</width>
+      <height>141</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,181,247);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>change
+pin</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="tt">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>240</y>
+      <width>271</width>
+      <height>151</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(0,181,247);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>transaction
+summary</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ll">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>530</y>
+      <width>601</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(255, 105, 107);
+color:black;
+border-radius:20px;
+font-size:30px;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string>log out</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="name">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>10</y>
+      <width>541</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size:30px;
+color:white;
+font-variant:small-caps;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="val">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>190</y>
+      <width>301</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:rgb(88, 177, 255);
+color:black;
+font-size:25px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>32770</number>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Normal</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="submit">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>280</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:10px;
+color:black;
+background:rgb(81, 190, 69);
+font-variant:small-caps;
+font-size:24px;</string>
+    </property>
+    <property name="text">
+     <string>submit</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancel">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>350</y>
+      <width>291</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius:10px;
+color:black;
+background:rgb(255, 55, 58);
+font-variant:small-caps;
+font-size:24px;</string>
+    </property>
+    <property name="text">
+     <string>cancel</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
